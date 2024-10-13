@@ -1,0 +1,483 @@
+CRITICAL - 2023-04-28 00:07:34 --> syntax error, unexpected token "}"
+in APPPATH/Controllers/Users.php on line 231.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 00:15:55 --> Undefined variable $data
+in APPPATH/Controllers/Users.php on line 232.
+ 1 APPPATH/Controllers/Users.php(232): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 00:24:35 --> Undefined variable $error
+in APPPATH/Views/resetPassword.php on line 13.
+ 1 APPPATH/Views/resetPassword.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/resetPassword.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Users.php(235): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 00:34:33 --> CodeIgniter\Router\RouteCollection::match(): Argument #1 ($verbs) must be of type array, string given, called in /var/www/htdocs/demo/app/Config/Routes.php on line 38
+in SYSTEMPATH/Router/RouteCollection.php on line 895.
+ 1 APPPATH/Config/Routes.php(38): CodeIgniter\Router\RouteCollection->match()
+ 2 SYSTEMPATH/Router/RouteCollection.php(267): require('APPPATH/Config/Routes.php')
+ 3 SYSTEMPATH/CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH/CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 00:34:37 --> CodeIgniter\Router\RouteCollection::match(): Argument #1 ($verbs) must be of type array, string given, called in /var/www/htdocs/demo/app/Config/Routes.php on line 38
+in SYSTEMPATH/Router/RouteCollection.php on line 895.
+ 1 APPPATH/Config/Routes.php(38): CodeIgniter\Router\RouteCollection->match()
+ 2 SYSTEMPATH/Router/RouteCollection.php(267): require('APPPATH/Config/Routes.php')
+ 3 SYSTEMPATH/CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH/CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-28 00:44:12 --> mysqli_sql_exception: Duplicate entry '409698015' for key 'users.phone_unique' in /var/www/htdocs/demo/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/demo/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/demo/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/demo/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/demo/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/demo/app/Models/User_model.php(81): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/demo/app/Controllers/Registration.php(59): App\Models\User_model->addUser()
+#6 /var/www/htdocs/demo/system/CodeIgniter.php(934): App\Controllers\Registration->register()
+#7 /var/www/htdocs/demo/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/demo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/demo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-28 00:44:12 --> Duplicate entry '409698015' for key 'users.phone_unique'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/User_model.php(81): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Registration.php(59): App\Models\User_model->addUser()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Registration->register()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 00:45:58 --> Undefined array key "emailVerified"
+in APPPATH/Controllers/Users.php on line 32.
+ 1 APPPATH/Controllers/Users.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 00:46:04 --> Undefined array key "emailVerified"
+in APPPATH/Controllers/Users.php on line 32.
+ 1 APPPATH/Controllers/Users.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-28 00:53:46 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-28 00:53:46 --> 220 mailhub.eait.uq.edu.au ESMTP Sendmail 8.15.1/8.15.1; Fri, 28 Apr 2023 10:53:41 +1000 (AEST)
+
+hello: 250-mailhub.eait.uq.edu.au Hello infs3202-5b41c573.zones.eait.uq.edu.au [172.23.80.252], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 67108864
+250-DSN
+250-ETRN
+250-STARTTLS
+250-DELIVERBY
+250 HELP
+
+from: 250 2.1.0 <unitalk3202@gmail.com>... Sender ok
+
+to: 250 2.1.5 <meiwongjti@gmail.com>... Recipient ok
+
+data: 354 Enter mail, end with "." on a line by itself
+
+
+quit: 250 2.0.0 33S0rfva011307 Message accepted for delivery
+
+The following SMTP error was encountered: 250 2.0.0 33S0rfva011307 Message accepted for delivery
+
+The following SMTP error was encountered: 
+ERROR - 2023-04-28 00:53:58 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-28 00:53:58 --> 220 mailhub.eait.uq.edu.au ESMTP Sendmail 8.15.1/8.15.1; Fri, 28 Apr 2023 10:53:52 +1000 (AEST)
+
+hello: 250-mailhub.eait.uq.edu.au Hello infs3202-5b41c573.zones.eait.uq.edu.au [172.23.80.252], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 67108864
+250-DSN
+250-ETRN
+250-STARTTLS
+250-DELIVERBY
+250 HELP
+
+from: 250 2.1.0 <unitalk3202@gmail.com>... Sender ok
+
+to: 250 2.1.5 <meiwongjti@gmail.com>... Recipient ok
+
+data: 354 Enter mail, end with "." on a line by itself
+
+
+quit: 250 2.0.0 33S0rqDZ023260 Message accepted for delivery
+
+The following SMTP error was encountered: 250 2.0.0 33S0rqDZ023260 Message accepted for delivery
+
+The following SMTP error was encountered: 
+CRITICAL - 2023-04-28 01:03:09 --> Call to undefined function sessino()
+in APPPATH/Views/login.php on line 8.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Login.php(24): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->index()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 01:11:00 --> Object of class CodeIgniter\Validation\Validation could not be converted to string
+in APPPATH/Views/resetPassword.php on line 5.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Users.php(239): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-28 01:20:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '01:20:21' at line 3 in /var/www/htdocs/demo/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/demo/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/demo/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/demo/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/demo/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/demo/app/Models/User_model.php(110): CodeIgniter\Database\BaseBuilder->update()
+#5 /var/www/htdocs/demo/app/Controllers/Users.php(216): App\Models\User_model->removeResetToken()
+#6 /var/www/htdocs/demo/system/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+#7 /var/www/htdocs/demo/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/demo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/demo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-28 01:20:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '01:20:21' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/User_model.php(110): CodeIgniter\Database\BaseBuilder->update()
+ 3 APPPATH/Controllers/Users.php(216): App\Models\User_model->removeResetToken()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 01:21:04 --> date(): Argument #2 ($timestamp) must be of type ?int, string given
+in APPPATH/Models/User_model.php on line 110.
+ 1 APPPATH/Models/User_model.php(110): date()
+ 2 APPPATH/Controllers/Users.php(216): App\Models\User_model->removeResetToken()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-28 01:21:30 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '12:00:00' at line 3 in /var/www/htdocs/demo/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/demo/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/demo/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/demo/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/demo/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/demo/app/Models/User_model.php(110): CodeIgniter\Database\BaseBuilder->update()
+#5 /var/www/htdocs/demo/app/Controllers/Users.php(216): App\Models\User_model->removeResetToken()
+#6 /var/www/htdocs/demo/system/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+#7 /var/www/htdocs/demo/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/demo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/demo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-28 01:21:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '12:00:00' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/User_model.php(110): CodeIgniter\Database\BaseBuilder->update()
+ 3 APPPATH/Controllers/Users.php(216): App\Models\User_model->removeResetToken()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-28 01:22:34 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '01:22:34' at line 3 in /var/www/htdocs/demo/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/demo/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/demo/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/demo/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/demo/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/demo/app/Models/User_model.php(110): CodeIgniter\Database\BaseBuilder->update()
+#5 /var/www/htdocs/demo/app/Controllers/Users.php(216): App\Models\User_model->removeResetToken()
+#6 /var/www/htdocs/demo/system/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+#7 /var/www/htdocs/demo/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/demo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/demo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-28 01:22:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '01:22:34' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/User_model.php(110): CodeIgniter\Database\BaseBuilder->update()
+ 3 APPPATH/Controllers/Users.php(216): App\Models\User_model->removeResetToken()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-28 01:22:36 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '01:22:36' at line 3 in /var/www/htdocs/demo/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/demo/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/demo/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/demo/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/demo/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/demo/app/Models/User_model.php(110): CodeIgniter\Database\BaseBuilder->update()
+#5 /var/www/htdocs/demo/app/Controllers/Users.php(216): App\Models\User_model->removeResetToken()
+#6 /var/www/htdocs/demo/system/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+#7 /var/www/htdocs/demo/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/demo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/demo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-28 01:22:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '01:22:36' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/User_model.php(110): CodeIgniter\Database\BaseBuilder->update()
+ 3 APPPATH/Controllers/Users.php(216): App\Models\User_model->removeResetToken()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-28 01:23:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '01:23:01' at line 3 in /var/www/htdocs/demo/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/demo/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/demo/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/demo/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/demo/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/demo/app/Models/User_model.php(110): CodeIgniter\Database\BaseBuilder->update()
+#5 /var/www/htdocs/demo/app/Controllers/Users.php(216): App\Models\User_model->removeResetToken()
+#6 /var/www/htdocs/demo/system/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+#7 /var/www/htdocs/demo/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/demo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/demo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-28 01:23:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '01:23:01' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/User_model.php(110): CodeIgniter\Database\BaseBuilder->update()
+ 3 APPPATH/Controllers/Users.php(216): App\Models\User_model->removeResetToken()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-28 01:24:28 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '01:23:01' at line 3 in /var/www/htdocs/demo/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/demo/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/demo/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/demo/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/demo/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/demo/app/Models/User_model.php(110): CodeIgniter\Database\BaseBuilder->update()
+#5 /var/www/htdocs/demo/app/Controllers/Users.php(216): App\Models\User_model->removeResetToken()
+#6 /var/www/htdocs/demo/system/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+#7 /var/www/htdocs/demo/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/demo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/demo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-28 01:24:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '01:23:01' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/User_model.php(110): CodeIgniter\Database\BaseBuilder->update()
+ 3 APPPATH/Controllers/Users.php(216): App\Models\User_model->removeResetToken()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-28 01:24:29 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '01:23:01' at line 3 in /var/www/htdocs/demo/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/demo/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/demo/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/demo/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/demo/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/demo/app/Models/User_model.php(110): CodeIgniter\Database\BaseBuilder->update()
+#5 /var/www/htdocs/demo/app/Controllers/Users.php(216): App\Models\User_model->removeResetToken()
+#6 /var/www/htdocs/demo/system/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+#7 /var/www/htdocs/demo/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/demo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/demo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-28 01:24:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '01:23:01' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/User_model.php(110): CodeIgniter\Database\BaseBuilder->update()
+ 3 APPPATH/Controllers/Users.php(216): App\Models\User_model->removeResetToken()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-28 01:25:42 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '01:23:01' at line 3 in /var/www/htdocs/demo/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/demo/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/demo/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/demo/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/demo/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/demo/app/Models/User_model.php(111): CodeIgniter\Database\BaseBuilder->update()
+#5 /var/www/htdocs/demo/app/Controllers/Users.php(216): App\Models\User_model->removeResetToken()
+#6 /var/www/htdocs/demo/system/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+#7 /var/www/htdocs/demo/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/demo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/demo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-28 01:25:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '01:23:01' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/User_model.php(111): CodeIgniter\Database\BaseBuilder->update()
+ 3 APPPATH/Controllers/Users.php(216): App\Models\User_model->removeResetToken()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-28 01:27:21 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-28 01:27:21 --> 220 mailhub.eait.uq.edu.au ESMTP Sendmail 8.15.1/8.15.1; Fri, 28 Apr 2023 11:27:16 +1000 (AEST)
+
+hello: 250-mailhub.eait.uq.edu.au Hello infs3202-5b41c573.zones.eait.uq.edu.au [172.23.80.252], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 67108864
+250-DSN
+250-ETRN
+250-STARTTLS
+250-DELIVERBY
+250 HELP
+
+from: 250 2.1.0 <unitalk3202@gmail.com>... Sender ok
+
+to: 250 2.1.5 <meiwongjti@gmail.com>... Recipient ok
+
+data: 354 Enter mail, end with "." on a line by itself
+
+
+quit: 250 2.0.0 33S1RGKE004448 Message accepted for delivery
+
+The following SMTP error was encountered: 250 2.0.0 33S1RGKE004448 Message accepted for delivery
+
+The following SMTP error was encountered: 
+CRITICAL - 2023-04-28 04:56:24 --> Undefined array key "emailVerified"
+in APPPATH/Controllers/Users.php on line 32.
+ 1 APPPATH/Controllers/Users.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 04:57:26 --> Undefined array key "emailVerified"
+in APPPATH/Controllers/Users.php on line 36.
+ 1 APPPATH/Controllers/Users.php(36): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 05:03:06 --> Undefined variable $courses
+in APPPATH/Views/dashboard.php on line 19.
+ 1 APPPATH/Views/dashboard.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Dashboard.php(12): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 05:04:12 --> Cannot access offset of type string on string
+in APPPATH/Views/dashboard.php on line 20.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Dashboard.php(12): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 05:17:52 --> Class "App\Models\Course_model" not found
+in APPPATH/Controllers/Dashboard.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\Dashboard->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 05:18:14 --> Undefined variable $username
+in APPPATH/Controllers/Dashboard.php on line 20.
+ 1 APPPATH/Controllers/Dashboard.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 05:47:26 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 882.
+ 1 APPPATH/Models/Enrolment_model.php(23): CodeIgniter\Database\BaseConnection->table()
+ 2 APPPATH/Controllers/Users.php(274): App\Models\Enrolment_model->enrolInCourse()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->enrolInCourse()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-28 05:50:22 --> mysqli_sql_exception: Duplicate entry 'COMP3400-35' for key 'enrolment.PRIMARY' in /var/www/htdocs/demo/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/demo/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/demo/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/demo/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/demo/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/demo/app/Models/Enrolment_model.php(32): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/demo/app/Controllers/Users.php(274): App\Models\Enrolment_model->enrolInCourse()
+#6 /var/www/htdocs/demo/system/CodeIgniter.php(934): App\Controllers\Users->enrolInCourse()
+#7 /var/www/htdocs/demo/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/demo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/demo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-28 05:50:22 --> Duplicate entry 'COMP3400-35' for key 'enrolment.PRIMARY'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Enrolment_model.php(32): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Users.php(274): App\Models\Enrolment_model->enrolInCourse()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->enrolInCourse()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-28 05:52:05 --> mysqli_sql_exception: Duplicate entry 'CSSE2002-35' for key 'enrolment.PRIMARY' in /var/www/htdocs/demo/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/demo/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/demo/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/demo/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/demo/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/demo/app/Models/Enrolment_model.php(32): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/demo/app/Controllers/Users.php(274): App\Models\Enrolment_model->enrolInCourse()
+#6 /var/www/htdocs/demo/system/CodeIgniter.php(934): App\Controllers\Users->enrolInCourse()
+#7 /var/www/htdocs/demo/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/demo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/demo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-28 05:52:05 --> Duplicate entry 'CSSE2002-35' for key 'enrolment.PRIMARY'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Enrolment_model.php(32): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Users.php(274): App\Models\Enrolment_model->enrolInCourse()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->enrolInCourse()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-28 11:26:23 --> mysqli_sql_exception: Duplicate entry '1231231231' for key 'users.phone_unique' in /var/www/htdocs/demo/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/demo/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/demo/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/demo/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/demo/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/demo/app/Models/User_model.php(81): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/demo/app/Controllers/Registration.php(59): App\Models\User_model->addUser()
+#6 /var/www/htdocs/demo/system/CodeIgniter.php(934): App\Controllers\Registration->register()
+#7 /var/www/htdocs/demo/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/demo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/demo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-28 11:26:23 --> Duplicate entry '1231231231' for key 'users.phone_unique'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/User_model.php(81): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Registration.php(59): App\Models\User_model->addUser()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Registration->register()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

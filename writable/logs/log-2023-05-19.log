@@ -1,0 +1,174 @@
+ERROR - 2023-05-19 01:30:50 --> meiwonggjti@gmail.comemail sent
+ERROR - 2023-05-19 01:30:50 --> chethiche123@gmail.comemail sent
+ERROR - 2023-05-19 01:30:51 --> meiwongjti@gmail.comemail sent
+ERROR - 2023-05-19 01:30:51 --> samarsingh111444333@gmail.comemail sent
+ERROR - 2023-05-19 01:33:37 --> mysqli_sql_exception: Duplicate entry '40-69' for key 'userFavourites.PRIMARY' in /var/www/htdocs/demo/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/demo/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/demo/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/demo/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/demo/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/demo/app/Models/UserFavourites_model.php(28): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/demo/app/Controllers/Users.php(286): App\Models\UserFavourites_model->addToFavourites()
+#6 /var/www/htdocs/demo/system/CodeIgniter.php(934): App\Controllers\Users->addToFavourites()
+#7 /var/www/htdocs/demo/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/demo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/demo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-19 01:33:37 --> Duplicate entry '40-69' for key 'userFavourites.PRIMARY'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/UserFavourites_model.php(28): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Users.php(286): App\Models\UserFavourites_model->addToFavourites()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->addToFavourites()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-19 01:34:00 --> mysqli_sql_exception: Duplicate entry '40-74' for key 'userFavourites.PRIMARY' in /var/www/htdocs/demo/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/demo/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/demo/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/demo/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/demo/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/demo/app/Models/UserFavourites_model.php(28): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/demo/app/Controllers/Users.php(286): App\Models\UserFavourites_model->addToFavourites()
+#6 /var/www/htdocs/demo/system/CodeIgniter.php(934): App\Controllers\Users->addToFavourites()
+#7 /var/www/htdocs/demo/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/demo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/demo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-19 01:34:00 --> Duplicate entry '40-74' for key 'userFavourites.PRIMARY'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/UserFavourites_model.php(28): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Users.php(286): App\Models\UserFavourites_model->addToFavourites()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->addToFavourites()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 01:35:39 --> require(/var/www/htdocs/demo/app/Controllers/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Course.php on line 6.
+ 1 APPPATH/Controllers/Course.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Course.php(6): require()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once('APPPATH/Controllers/Course.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 7 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 8 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 01:36:24 --> require(/var/www/htdocs/demo/app/Controllers/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Course.php on line 6.
+ 1 APPPATH/Controllers/Course.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Course.php(6): require()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once('APPPATH/Controllers/Course.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 7 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 8 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 01:36:26 --> require(/var/www/htdocs/demo/app/Controllers/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Course.php on line 6.
+ 1 APPPATH/Controllers/Course.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Course.php(6): require()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once('APPPATH/Controllers/Course.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 7 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 8 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 01:36:45 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH/Controllers/Course.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 01:36:49 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH/Controllers/Course.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 01:36:55 --> require(/var/www/htdocs/demo/app/Controllers/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Course.php on line 7.
+ 1 APPPATH/Controllers/Course.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Course.php(7): require()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once('APPPATH/Controllers/Course.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 7 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 8 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 01:39:34 --> require(/var/www/htdocs/demo/app/Controllers/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Course.php on line 7.
+ 1 APPPATH/Controllers/Course.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Course.php(7): require()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once('APPPATH/Controllers/Course.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 7 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 8 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 01:40:58 --> require(App/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Course.php on line 7.
+ 1 APPPATH/Controllers/Course.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Course.php(7): require()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once('APPPATH/Controllers/Course.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 7 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 8 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 01:41:10 --> require(/var/www/htdocs/demo/app/Controllers/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Course.php on line 7.
+ 1 APPPATH/Controllers/Course.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Course.php(7): require()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once('APPPATH/Controllers/Course.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 7 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 8 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 01:41:24 --> require(/var/www/htdocs/demo/app/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Course.php on line 7.
+ 1 APPPATH/Controllers/Course.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Course.php(7): require()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once('APPPATH/Controllers/Course.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 7 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 8 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-19 01:42:15 --> meiwonggjti@gmail.comemail sent
+ERROR - 2023-05-19 01:42:15 --> chethiche123@gmail.comemail sent
+ERROR - 2023-05-19 01:42:15 --> meiwongjti@gmail.comemail sent
+ERROR - 2023-05-19 01:42:16 --> samarsingh111444333@gmail.comemail sent
+CRITICAL - 2023-05-19 04:20:55 --> require(/var/www/htdocs/demo/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Course.php on line 7.
+ 1 APPPATH/Controllers/Course.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Course.php(7): require()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once('APPPATH/Controllers/Course.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 7 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 8 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-19 04:25:27 --> meiwonggjti@gmail.comemail sent
+ERROR - 2023-05-19 04:25:27 --> chethiche123@gmail.comemail sent
+ERROR - 2023-05-19 04:25:27 --> meiwongjti@gmail.comemail sent
+ERROR - 2023-05-19 04:25:28 --> samarsingh111444333@gmail.comemail sent
+ERROR - 2023-05-19 04:39:22 --> meiwonggjti@gmail.comemail sent
+ERROR - 2023-05-19 04:39:22 --> chethiche123@gmail.comemail sent
+ERROR - 2023-05-19 04:39:23 --> meiwongjti@gmail.comemail sent
+ERROR - 2023-05-19 04:39:23 --> samarsingh111444333@gmail.comemail sent

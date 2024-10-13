@@ -1,0 +1,947 @@
+CRITICAL - 2023-04-27 00:00:14 --> Call to a member function getPosts() on null
+in APPPATH/Controllers/Course.php on line 30.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 00:01:59 --> Call to a member function getPosts() on null
+in APPPATH/Controllers/Course.php on line 30.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 00:02:22 --> Call to a member function getPosts() on null
+in APPPATH/Controllers/Course.php on line 30.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 00:04:03 --> Call to a member function getPosts() on null
+in APPPATH/Controllers/Course.php on line 30.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 00:04:47 --> Call to a member function getPosts() on null
+in APPPATH/Controllers/Course.php on line 30.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 00:05:30 --> Undefined variable $uri
+in APPPATH/Controllers/Course.php on line 25.
+ 1 APPPATH/Controllers/Course.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\Course->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 03:49:48 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Course.php on line 53.
+ 1 APPPATH/Controllers/Course.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->addComment()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 03:50:04 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Course.php on line 53.
+ 1 APPPATH/Controllers/Course.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->addComment()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 03:52:54 --> Undefined constant "App\Controllers\userDetails"
+in APPPATH/Controllers/Course.php on line 54.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->addComment()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 03:53:05 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Course.php on line 54.
+ 1 APPPATH/Controllers/Course.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->addComment()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 03:54:47 --> Undefined variable $postid
+in APPPATH/Controllers/Course.php on line 60.
+ 1 APPPATH/Controllers/Course.php(60): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->addComment()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 04:01:06 --> Undefined constant "App\Controllers\userDetails"
+in APPPATH/Controllers/Course.php on line 55.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->addComment()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 04:02:59 --> Undefined variable $postid
+in APPPATH/Controllers/Course.php on line 60.
+ 1 APPPATH/Controllers/Course.php(60): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->addComment()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 04:03:44 --> Call to undefined function App\Controllers\index()
+in APPPATH/Controllers/Course.php on line 61.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->addComment()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 04:32:49 --> Undefined variable $error
+in APPPATH/Views/registration.php on line 12.
+ 1 APPPATH/Views/registration.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/registration.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Registration.php(24): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Registration->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 05:15:09 --> Undefined variable $errors
+in APPPATH/Views/registration.php on line 3.
+ 1 APPPATH/Views/registration.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/registration.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Registration.php(24): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Registration->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 05:15:51 --> Undefined variable $errors
+in APPPATH/Views/registration.php on line 3.
+ 1 APPPATH/Views/registration.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/registration.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Registration.php(25): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Registration->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 05:15:54 --> Undefined variable $errors
+in APPPATH/Views/registration.php on line 3.
+ 1 APPPATH/Views/registration.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/registration.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Registration.php(25): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Registration->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-27 06:38:41 --> mysqli_sql_exception: Duplicate entry 'meiwongjti@gmail.com' for key 'users.email_unique' in /var/www/htdocs/demo/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/demo/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/demo/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/demo/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/demo/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/demo/app/Models/User_model.php(78): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/demo/app/Controllers/Registration.php(56): App\Models\User_model->addUser()
+#6 /var/www/htdocs/demo/system/CodeIgniter.php(934): App\Controllers\Registration->register()
+#7 /var/www/htdocs/demo/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/demo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/demo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-27 06:38:41 --> Duplicate entry 'meiwongjti@gmail.com' for key 'users.email_unique'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/User_model.php(78): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Registration.php(56): App\Models\User_model->addUser()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Registration->register()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-27 06:39:15 --> mysqli_sql_exception: Duplicate entry '409698015' for key 'users.phone_unique' in /var/www/htdocs/demo/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/demo/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/demo/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/demo/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/demo/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/demo/app/Models/User_model.php(78): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/demo/app/Controllers/Registration.php(56): App\Models\User_model->addUser()
+#6 /var/www/htdocs/demo/system/CodeIgniter.php(934): App\Controllers\Registration->register()
+#7 /var/www/htdocs/demo/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/demo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/demo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-27 06:39:15 --> Duplicate entry '409698015' for key 'users.phone_unique'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/User_model.php(78): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Registration.php(56): App\Models\User_model->addUser()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Registration->register()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-27 07:09:34 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for unitalk3202@gmail.com failed: Name or service not known in /var/www/htdocs/demo/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/demo/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/demo/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/demo/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/demo/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/demo/app/Controllers/Registration.php(67): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/demo/system/CodeIgniter.php(934): App\Controllers\Registration->register()
+#7 /var/www/htdocs/demo/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/demo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/demo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-27 07:09:34 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-27 07:09:34 --> 
+ERROR - 2023-04-27 07:09:55 --> mysqli_sql_exception: Duplicate entry 'meiwongjti@gmail.com' for key 'users.email_unique' in /var/www/htdocs/demo/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/demo/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/demo/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/demo/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/demo/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/demo/app/Models/User_model.php(78): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/demo/app/Controllers/Registration.php(58): App\Models\User_model->addUser()
+#6 /var/www/htdocs/demo/system/CodeIgniter.php(934): App\Controllers\Registration->register()
+#7 /var/www/htdocs/demo/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/demo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/demo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-27 07:09:55 --> Duplicate entry 'meiwongjti@gmail.com' for key 'users.email_unique'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/User_model.php(78): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Registration.php(58): App\Models\User_model->addUser()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Registration->register()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-27 07:10:11 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for unitalk3202@gmail.com failed: Name or service not known in /var/www/htdocs/demo/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/demo/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/demo/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/demo/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/demo/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/demo/app/Controllers/Registration.php(67): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/demo/system/CodeIgniter.php(934): App\Controllers\Registration->register()
+#7 /var/www/htdocs/demo/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/demo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/demo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-27 07:10:11 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-27 07:10:11 --> 
+CRITICAL - 2023-04-27 07:11:35 --> Undefined property: App\Controllers\Registration::$email
+in APPPATH/Controllers/Registration.php on line 61.
+ 1 APPPATH/Controllers/Registration.php(61): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Registration->register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 07:13:37 --> Undefined variable $email
+in APPPATH/Controllers/Registration.php on line 61.
+ 1 APPPATH/Controllers/Registration.php(61): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Registration->register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 07:14:08 --> Undefined variable $config
+in APPPATH/Controllers/Registration.php on line 63.
+ 1 APPPATH/Controllers/Registration.php(63): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Registration->register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 07:14:22 --> Too few arguments to function CodeIgniter\Email\Email::initialize(), 0 passed in /var/www/htdocs/demo/app/Controllers/Registration.php on line 63 and exactly 1 expected
+in SYSTEMPATH/Email/Email.php on line 412.
+ 1 APPPATH/Controllers/Registration.php(63): CodeIgniter\Email\Email->initialize()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Registration->register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-27 07:16:25 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for unitalk3202@gmail.com failed: Name or service not known in /var/www/htdocs/demo/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/demo/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/demo/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/demo/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/demo/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/demo/app/Controllers/Registration.php(67): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/demo/system/CodeIgniter.php(934): App\Controllers\Registration->register()
+#7 /var/www/htdocs/demo/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/demo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/demo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-27 07:16:25 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-27 07:16:25 --> 
+ERROR - 2023-04-27 07:19:21 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to smtp.gmail.com:587 (Connection timed out) in /var/www/htdocs/demo/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/demo/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/demo/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/demo/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/demo/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/demo/app/Controllers/Registration.php(78): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/demo/system/CodeIgniter.php(934): App\Controllers\Registration->register()
+#7 /var/www/htdocs/demo/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/demo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/demo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-27 07:19:21 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-27 07:19:21 --> 
+ERROR - 2023-04-27 07:20:48 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to tls://smtp.gmail.com:465 (Connection timed out) in /var/www/htdocs/demo/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/demo/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/demo/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/demo/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/demo/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/demo/app/Controllers/Registration.php(78): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/demo/system/CodeIgniter.php(934): App\Controllers\Registration->register()
+#7 /var/www/htdocs/demo/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/demo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/demo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-27 07:20:48 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-27 07:20:48 --> 
+ERROR - 2023-04-27 07:22:38 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-27 07:22:38 --> 220 mailhub.eait.uq.edu.au ESMTP Sendmail 8.15.1/8.15.1; Thu, 27 Apr 2023 17:22:38 +1000 (AEST)
+
+hello: 250-mailhub.eait.uq.edu.au Hello infs3202-5b41c573.zones.eait.uq.edu.au [172.23.80.252], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 67108864
+250-DSN
+250-ETRN
+250-STARTTLS
+250-DELIVERBY
+250 HELP
+
+Failed to send AUTH LOGIN command. Error: 500 5.5.1 Command unrecognized: "AUTH LOGIN"
+
+CRITICAL - 2023-04-27 07:24:05 --> syntax error, unexpected single-quoted string "STMPPass", expecting "]"
+in APPPATH/Controllers/Registration.php on line 69.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-27 07:24:18 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-27 07:24:18 --> 220 mailhub.eait.uq.edu.au ESMTP Sendmail 8.15.1/8.15.1; Thu, 27 Apr 2023 17:24:18 +1000 (AEST)
+
+hello: 250-mailhub.eait.uq.edu.au Hello infs3202-5b41c573.zones.eait.uq.edu.au [172.23.80.252], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 67108864
+250-DSN
+250-ETRN
+250-STARTTLS
+250-DELIVERBY
+250 HELP
+
+Failed to send AUTH LOGIN command. Error: 500 5.5.1 Command unrecognized: "AUTH LOGIN"
+
+CRITICAL - 2023-04-27 07:37:54 --> Class "Config\Services\email" not found
+in APPPATH/Controllers/Registration.php on line 61.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Registration->register()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 07:38:06 --> Class "App\Controllers\email" not found
+in APPPATH/Controllers/Registration.php on line 61.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Registration->register()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 07:38:28 --> Class "App\Controllers\Email" not found
+in APPPATH/Controllers/Registration.php on line 61.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Registration->register()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-27 07:50:47 --> mysqli_sql_exception: Duplicate entry 'meiwongjti@gmail.com' for key 'users.email_unique' in /var/www/htdocs/demo/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/demo/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/demo/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/demo/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/demo/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/demo/app/Models/User_model.php(78): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/demo/app/Controllers/Registration.php(63): App\Models\User_model->addUser()
+#6 /var/www/htdocs/demo/system/CodeIgniter.php(934): App\Controllers\Registration->register()
+#7 /var/www/htdocs/demo/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/demo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/demo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-27 07:50:47 --> Duplicate entry 'meiwongjti@gmail.com' for key 'users.email_unique'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/User_model.php(78): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Registration.php(63): App\Models\User_model->addUser()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Registration->register()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-27 07:52:16 --> mysqli_sql_exception: Duplicate entry '40969801' for key 'users.phone_unique' in /var/www/htdocs/demo/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/demo/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/demo/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/demo/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/demo/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/demo/app/Models/User_model.php(61): CodeIgniter\Database\BaseBuilder->update()
+#5 /var/www/htdocs/demo/app/Controllers/Users.php(43): App\Models\User_model->updateDetails()
+#6 /var/www/htdocs/demo/system/CodeIgniter.php(934): App\Controllers\Users->updateUserInfo()
+#7 /var/www/htdocs/demo/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/demo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/demo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-27 07:52:16 --> Duplicate entry '40969801' for key 'users.phone_unique'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/User_model.php(61): CodeIgniter\Database\BaseBuilder->update()
+ 3 APPPATH/Controllers/Users.php(43): App\Models\User_model->updateDetails()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->updateUserInfo()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 07:59:01 --> Undefined variable $userDetails
+in APPPATH/Controllers/Users.php on line 23.
+ 1 APPPATH/Controllers/Users.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 07:59:17 --> Undefined array key "emailVerifiedString"
+in APPPATH/Views/profile.php on line 38.
+ 1 APPPATH/Views/profile.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Users.php(30): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 08:30:10 --> Undefined variable $userDetails
+in APPPATH/Controllers/Users.php on line 63.
+ 1 APPPATH/Controllers/Users.php(63): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->updateEmailVerified()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 08:31:12 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Users.php on line 23.
+ 1 APPPATH/Controllers/Users.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 08:31:14 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Users.php on line 23.
+ 1 APPPATH/Controllers/Users.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 08:31:15 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Users.php on line 23.
+ 1 APPPATH/Controllers/Users.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 08:31:19 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Users.php on line 23.
+ 1 APPPATH/Controllers/Users.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 08:35:26 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Users.php on line 23.
+ 1 APPPATH/Controllers/Users.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 08:35:54 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Users.php on line 23.
+ 1 APPPATH/Controllers/Users.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 08:36:32 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Users.php on line 23.
+ 1 APPPATH/Controllers/Users.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 08:36:56 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Users.php on line 23.
+ 1 APPPATH/Controllers/Users.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 08:37:13 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Users.php on line 23.
+ 1 APPPATH/Controllers/Users.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 09:06:30 --> Invalid numeric literal
+in APPPATH/Controllers/Users.php on line 69.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 09:06:34 --> Invalid numeric literal
+in APPPATH/Controllers/Users.php on line 69.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 09:06:38 --> Invalid numeric literal
+in APPPATH/Controllers/Users.php on line 69.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 09:06:41 --> Invalid numeric literal
+in APPPATH/Controllers/Users.php on line 69.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 09:06:50 --> Invalid numeric literal
+in APPPATH/Controllers/Users.php on line 69.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 11:23:44 --> Undefined variable $error
+in APPPATH/Views/forgotPassword.php on line 12.
+ 1 APPPATH/Views/forgotPassword.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/forgotPassword.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Users.php(108): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->forgotPassword()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 11:23:52 --> Undefined variable $error
+in APPPATH/Views/forgotPassword.php on line 12.
+ 1 APPPATH/Views/forgotPassword.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/forgotPassword.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Users.php(108): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->forgotPassword()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 11:23:54 --> Undefined variable $error
+in APPPATH/Views/forgotPassword.php on line 12.
+ 1 APPPATH/Views/forgotPassword.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/forgotPassword.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Users.php(108): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->forgotPassword()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 11:23:56 --> Undefined variable $error
+in APPPATH/Views/forgotPassword.php on line 12.
+ 1 APPPATH/Views/forgotPassword.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/forgotPassword.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Users.php(108): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->forgotPassword()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 11:39:01 --> Undefined variable $error
+in APPPATH/Views/forgotPassword.php on line 10.
+ 1 APPPATH/Views/forgotPassword.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/forgotPassword.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Users.php(109): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->showForgotPasswordForm()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 11:39:57 --> Undefined variable $error
+in APPPATH/Views/forgotPassword.php on line 10.
+ 1 APPPATH/Views/forgotPassword.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/forgotPassword.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Users.php(110): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->showForgotPasswordForm()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 11:41:12 --> Undefined variable $userModel
+in APPPATH/Controllers/Users.php on line 116.
+ 1 APPPATH/Controllers/Users.php(116): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 11:51:54 --> Undefined array key "error"
+in APPPATH/Controllers/Users.php on line 47.
+ 1 APPPATH/Controllers/Users.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->updateUserInfo()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 11:52:21 --> Undefined variable $error
+in APPPATH/Views/profile.php on line 17.
+ 1 APPPATH/Views/profile.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Users.php(31): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 11:52:28 --> Undefined variable $error
+in APPPATH/Views/profile.php on line 17.
+ 1 APPPATH/Views/profile.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Users.php(31): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 12:01:17 --> Undefined array key "error"
+in APPPATH/Controllers/Users.php on line 33.
+ 1 APPPATH/Controllers/Users.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 12:15:13 --> Undefined array key "emailVerified"
+in APPPATH/Controllers/Users.php on line 21.
+ 1 APPPATH/Controllers/Users.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\Users->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 12:16:19 --> Undefined array key "emailVerified"
+in APPPATH/Controllers/Users.php on line 21.
+ 1 APPPATH/Controllers/Users.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\Users->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 21:07:32 --> Undefined constant "App\Models\session"
+in APPPATH/Models/User_model.php on line 18.
+ 1 APPPATH/Controllers/Registration.php(20): App\Models\User_model->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\Registration->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 21:22:56 --> Trying to access array offset on value of type null
+in APPPATH/Models/User_model.php on line 93.
+ 1 APPPATH/Models/User_model.php(93): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Users.php(128): App\Models\User_model->updateResetTokenTime()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 21:24:09 --> Class "App\Controllers\Email" not found
+in APPPATH/Controllers/Users.php on line 131.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 21:24:30 --> strpos(): Argument #1 ($haystack) must be of type string, CodeIgniter\Email\Email given
+in SYSTEMPATH/Email/Email.php on line 737.
+ 1 SYSTEMPATH/Email/Email.php(737): strpos()
+ 2 SYSTEMPATH/Email/Email.php(550): CodeIgniter\Email\Email->stringToArray()
+ 3 APPPATH/Controllers/Users.php(149): CodeIgniter\Email\Email->setTo()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 21:25:26 --> strpos(): Argument #1 ($haystack) must be of type string, CodeIgniter\Email\Email given
+in SYSTEMPATH/Email/Email.php on line 737.
+ 1 SYSTEMPATH/Email/Email.php(737): strpos()
+ 2 SYSTEMPATH/Email/Email.php(550): CodeIgniter\Email\Email->stringToArray()
+ 3 APPPATH/Controllers/Users.php(150): CodeIgniter\Email\Email->setTo()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 21:25:53 --> Undefined variable $email
+in APPPATH/Controllers/Users.php on line 129.
+ 1 APPPATH/Controllers/Users.php(129): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 21:26:04 --> Undefined variable $email
+in APPPATH/Controllers/Users.php on line 132.
+ 1 APPPATH/Controllers/Users.php(132): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-27 21:29:24 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-27 21:29:24 --> 
+hello: 220 mailhub.eait.uq.edu.au ESMTP Sendmail 8.15.1/8.15.1; Fri, 28 Apr 2023 07:29:24 +1000 (AEST)
+
+The following SMTP error was encountered: 220 mailhub.eait.uq.edu.au ESMTP Sendmail 8.15.1/8.15.1; Fri, 28 Apr 2023 07:29:24 +1000 (AEST)
+
+CRITICAL - 2023-04-27 21:38:32 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 882.
+ 1 SYSTEMPATH/Model.php(642): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Users.php(135): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 21:39:24 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 882.
+ 1 SYSTEMPATH/Model.php(642): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Users.php(135): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 21:41:45 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 882.
+ 1 SYSTEMPATH/Model.php(642): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Users.php(135): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 21:41:53 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 882.
+ 1 SYSTEMPATH/Model.php(642): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Users.php(135): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 21:42:59 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 882.
+ 1 SYSTEMPATH/Model.php(642): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Users.php(135): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 21:46:06 --> Undefined variable $error
+in APPPATH/Views/login.php on line 12.
+ 1 APPPATH/Views/login.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/login.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Users.php(167): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 22:58:11 --> Undefined variable $error
+in APPPATH/Views/resetPassword.php on line 13.
+ 1 APPPATH/Views/resetPassword.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/resetPassword.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Users.php(189): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 22:58:56 --> Undefined variable $messages
+in APPPATH/Controllers/Users.php on line 189.
+ 1 APPPATH/Controllers/Users.php(189): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 23:00:50 --> Undefined array key "resetTokenTime"
+in APPPATH/Controllers/Users.php on line 194.
+ 1 APPPATH/Controllers/Users.php(194): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 23:05:15 --> Undefined variable $current_time
+in APPPATH/Controllers/Users.php on line 218.
+ 1 APPPATH/Controllers/Users.php(218): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Users.php(196): App\Controllers\Users->checkTokenDate()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 23:05:27 --> Undefined variable $update_time
+in APPPATH/Controllers/Users.php on line 218.
+ 1 APPPATH/Controllers/Users.php(218): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Users.php(196): App\Controllers\Users->checkTokenDate()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 23:05:38 --> Undefined constant "App\Controllers\isTokenValid"
+in APPPATH/Controllers/Users.php on line 198.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 23:09:05 --> A non-numeric value encountered
+in APPPATH/Controllers/Users.php on line 219.
+ 1 APPPATH/Controllers/Users.php(219): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Users.php(195): App\Controllers\Users->checkTokenDate()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 23:09:50 --> Class "App\Controllers\DateTime" not found
+in APPPATH/Controllers/Users.php on line 216.
+ 1 APPPATH/Controllers/Users.php(195): App\Controllers\Users->checkTokenDate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 23:09:51 --> Class "App\Controllers\DateTime" not found
+in APPPATH/Controllers/Users.php on line 216.
+ 1 APPPATH/Controllers/Users.php(195): App\Controllers\Users->checkTokenDate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 23:10:16 --> Class "App\Controllers\date" not found
+in APPPATH/Controllers/Users.php on line 216.
+ 1 APPPATH/Controllers/Users.php(195): App\Controllers\Users->checkTokenDate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 23:10:41 --> A non-numeric value encountered
+in APPPATH/Controllers/Users.php on line 219.
+ 1 APPPATH/Controllers/Users.php(219): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Users.php(195): App\Controllers\Users->checkTokenDate()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 23:10:51 --> A non-numeric value encountered
+in APPPATH/Controllers/Users.php on line 219.
+ 1 APPPATH/Controllers/Users.php(219): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Users.php(195): App\Controllers\Users->checkTokenDate()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 23:11:16 --> A non-numeric value encountered
+in APPPATH/Controllers/Users.php on line 219.
+ 1 APPPATH/Controllers/Users.php(219): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Users.php(195): App\Controllers\Users->checkTokenDate()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 23:11:59 --> Call to a member function diff() on string
+in APPPATH/Controllers/Users.php on line 219.
+ 1 APPPATH/Controllers/Users.php(195): App\Controllers\Users->checkTokenDate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 23:12:34 --> Call to a member function diff() on string
+in APPPATH/Controllers/Users.php on line 219.
+ 1 APPPATH/Controllers/Users.php(195): App\Controllers\Users->checkTokenDate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 23:12:35 --> Call to a member function diff() on string
+in APPPATH/Controllers/Users.php on line 219.
+ 1 APPPATH/Controllers/Users.php(195): App\Controllers\Users->checkTokenDate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 23:15:32 --> Undefined variable $timeDiff
+in APPPATH/Controllers/Users.php on line 223.
+ 1 APPPATH/Controllers/Users.php(223): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Users.php(195): App\Controllers\Users->checkTokenDate()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 23:15:45 --> Undefined variable $timeDiff
+in APPPATH/Controllers/Users.php on line 223.
+ 1 APPPATH/Controllers/Users.php(223): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Users.php(195): App\Controllers\Users->checkTokenDate()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 23:15:59 --> syntax error, unexpected double-quote mark, expecting "," or ";"
+in APPPATH/Controllers/Users.php on line 218.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 23:16:14 --> Undefined variable $timeDiff
+in APPPATH/Controllers/Users.php on line 223.
+ 1 APPPATH/Controllers/Users.php(223): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Users.php(195): App\Controllers\Users->checkTokenDate()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 23:16:42 --> Undefined variable $timeDiff
+in APPPATH/Controllers/Users.php on line 223.
+ 1 APPPATH/Controllers/Users.php(223): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Users.php(195): App\Controllers\Users->checkTokenDate()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 23:16:55 --> Undefined variable $timeDiff
+in APPPATH/Controllers/Users.php on line 221.
+ 1 APPPATH/Controllers/Users.php(221): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Users.php(195): App\Controllers\Users->checkTokenDate()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->resetPassword()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

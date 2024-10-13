@@ -1,0 +1,256 @@
+CRITICAL - 2023-05-16 02:39:00 --> Undefined variable $db
+in APPPATH/Models/Post_model.php on line 22.
+ 1 APPPATH/Models/Post_model.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Course.php(33): App\Models\Post_model->getPosts()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 02:39:04 --> Undefined variable $db
+in APPPATH/Models/Post_model.php on line 22.
+ 1 APPPATH/Models/Post_model.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Course.php(33): App\Models\Post_model->getPosts()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 02:39:15 --> Undefined variable $db
+in APPPATH/Models/Post_model.php on line 22.
+ 1 APPPATH/Models/Post_model.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Course.php(33): App\Models\Post_model->getPosts()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 02:39:45 --> Undefined variable $db
+in APPPATH/Models/Post_model.php on line 22.
+ 1 APPPATH/Models/Post_model.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Course.php(33): App\Models\Post_model->getPosts()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 02:39:50 --> Undefined variable $db
+in APPPATH/Models/Post_model.php on line 22.
+ 1 APPPATH/Models/Post_model.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Course.php(33): App\Models\Post_model->getPosts()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 02:42:28 --> Undefined array key "emailVerifiedString"
+in APPPATH/Views/profile.php on line 40.
+ 1 APPPATH/Views/profile.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Users.php(65): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->updateUserInfo()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 02:56:44 --> Class "App\Models\DateTime" not found
+in APPPATH/Models/Post_model.php on line 32.
+ 1 APPPATH/Controllers/Course.php(86): App\Models\Post_model->createPost()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->processCreatePostForm()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 03:00:31 --> Object of class DateTime could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 335.
+ 1 SYSTEMPATH/Database/Query.php(335): strtr()
+ 2 SYSTEMPATH/Database/Query.php(310): CodeIgniter\Database\Query->matchNamedBinds()
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 6 APPPATH/Models/Post_model.php(44): CodeIgniter\Database\BaseBuilder->insert()
+ 7 APPPATH/Controllers/Course.php(86): App\Models\Post_model->createPost()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->processCreatePostForm()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 05:25:47 --> Call to a member function uploadFile() on null
+in APPPATH/Controllers/Course.php on line 100.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->processCreatePostForm()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 05:31:44 --> Call to a member function uploadFile() on null
+in APPPATH/Controllers/Course.php on line 108.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->processCreatePostForm()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 05:33:18 --> Call to a member function uploadFile() on null
+in APPPATH/Controllers/Course.php on line 97.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->processCreatePostForm()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 05:35:00 --> Undefined variable $postid
+in APPPATH/Controllers/Course.php on line 97.
+ 1 APPPATH/Controllers/Course.php(97): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->processCreatePostForm()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-16 05:36:04 --> mysqli_sql_exception: Operand should contain 1 column(s) in /var/www/htdocs/demo/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/demo/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/demo/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/demo/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/demo/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/demo/app/Models/PostFile_model.php(27): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/demo/app/Controllers/Course.php(108): App\Models\PostFile_model->uploadFile()
+#6 /var/www/htdocs/demo/system/CodeIgniter.php(934): App\Controllers\Course->processCreatePostForm()
+#7 /var/www/htdocs/demo/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/demo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/demo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-16 05:36:04 --> Operand should contain 1 column(s)
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/PostFile_model.php(27): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Course.php(108): App\Models\PostFile_model->uploadFile()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->processCreatePostForm()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-16 05:40:22 --> mysqli_sql_exception: Operand should contain 1 column(s) in /var/www/htdocs/demo/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/demo/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/demo/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/demo/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/demo/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/demo/app/Models/PostFile_model.php(27): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/demo/app/Controllers/Course.php(108): App\Models\PostFile_model->uploadFile()
+#6 /var/www/htdocs/demo/system/CodeIgniter.php(934): App\Controllers\Course->processCreatePostForm()
+#7 /var/www/htdocs/demo/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/demo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/demo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-16 05:40:22 --> Operand should contain 1 column(s)
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/PostFile_model.php(27): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Course.php(108): App\Models\PostFile_model->uploadFile()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->processCreatePostForm()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 05:43:25 --> Undefined variable $newname
+in APPPATH/Controllers/Course.php on line 108.
+ 1 APPPATH/Controllers/Course.php(108): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->processCreatePostForm()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 05:44:19 --> Undefined variable $newname
+in APPPATH/Controllers/Course.php on line 109.
+ 1 APPPATH/Controllers/Course.php(109): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->processCreatePostForm()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 05:44:37 --> Undefined variable $newname
+in APPPATH/Controllers/Course.php on line 110.
+ 1 APPPATH/Controllers/Course.php(110): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->processCreatePostForm()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 05:44:45 --> Undefined variable $newname
+in APPPATH/Controllers/Course.php on line 110.
+ 1 APPPATH/Controllers/Course.php(110): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->processCreatePostForm()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-16 05:46:40 --> mysqli_sql_exception: Duplicate entry '21' for key 'PostFiles.PRIMARY' in /var/www/htdocs/demo/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/demo/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/demo/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/demo/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/demo/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/demo/app/Models/PostFile_model.php(27): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/demo/app/Controllers/Course.php(109): App\Models\PostFile_model->uploadFile()
+#6 /var/www/htdocs/demo/system/CodeIgniter.php(934): App\Controllers\Course->processCreatePostForm()
+#7 /var/www/htdocs/demo/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/demo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/demo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-16 05:46:40 --> Duplicate entry '21' for key 'PostFiles.PRIMARY'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/PostFile_model.php(27): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Course.php(109): App\Models\PostFile_model->uploadFile()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->processCreatePostForm()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 10:59:58 --> Undefined variable $course
+in APPPATH/Views/createPostForm.php on line 29.
+ 1 APPPATH/Views/createPostForm.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/createPostForm.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Course.php(78): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->showCreatePostForm()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 11:02:22 --> Undefined variable $course
+in APPPATH/Views/createPostForm.php on line 28.
+ 1 APPPATH/Views/createPostForm.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/createPostForm.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Course.php(78): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->showCreatePostForm()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 11:03:33 --> Undefined variable $course
+in APPPATH/Views/createPostForm.php on line 28.
+ 1 APPPATH/Views/createPostForm.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/createPostForm.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Course.php(78): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->showCreatePostForm()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 11:04:07 --> Undefined variable $course
+in APPPATH/Views/createPostForm.php on line 26.
+ 1 APPPATH/Views/createPostForm.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/createPostForm.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Course.php(78): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->showCreatePostForm()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 11:04:19 --> Undefined variable $course
+in APPPATH/Views/createPostForm.php on line 26.
+ 1 APPPATH/Views/createPostForm.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/createPostForm.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Course.php(78): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->showCreatePostForm()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 11:13:54 --> Undefined variable $course
+in APPPATH/Views/createPostForm.php on line 37.
+ 1 APPPATH/Views/createPostForm.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/createPostForm.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Course.php(78): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->showCreatePostForm()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

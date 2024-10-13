@@ -1,0 +1,590 @@
+CRITICAL - 2023-04-26 00:01:56 --> Too few arguments to function App\Models\Post_model::getPosts(), 0 passed in /var/www/htdocs/demo/app/Controllers/Course.php on line 9 and exactly 1 expected
+in APPPATH/Models/Post_model.php on line 9.
+ 1 APPPATH/Controllers/Course.php(9): App\Models\Post_model->getPosts()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 00:02:06 --> Array to string conversion
+in APPPATH/Controllers/Course.php on line 13.
+ 1 APPPATH/Controllers/Course.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 00:06:51 --> Undefined variable $allPosts
+in APPPATH/Views/course.php on line 22.
+ 1 APPPATH/Views/course.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Course.php(19): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 00:15:07 --> Undefined constant "App\Controllers\allPosts"
+in APPPATH/Controllers/Course.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 00:22:27 --> Undefined variable $course
+in APPPATH/Views/course.php on line 23.
+ 1 APPPATH/Views/course.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Course.php(20): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 03:39:20 --> Undefined array key 1
+in APPPATH/Controllers/Users.php on line 9.
+ 1 APPPATH/Controllers/Users.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 05:03:06 --> Undefined variable $username
+in APPPATH/Controllers/Users.php on line 20.
+ 1 APPPATH/Controllers/Users.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 05:05:39 --> Undefined variable $userModel
+in APPPATH/Controllers/Users.php on line 32.
+ 1 APPPATH/Controllers/Users.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->updateUserInfo()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 05:06:27 --> Call to undefined function App\Models\getProfile()
+in APPPATH/Models/User_model.php on line 47.
+ 1 APPPATH/Controllers/Users.php(32): App\Models\User_model->updateDetails()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->updateUserInfo()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 05:06:51 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::update()
+in APPPATH/Models/User_model.php on line 50.
+ 1 APPPATH/Controllers/Users.php(32): App\Models\User_model->updateDetails()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->updateUserInfo()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-26 05:11:44 --> mysqli_sql_exception: Unknown column 'phone_number' in 'field list' in /var/www/htdocs/demo/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/demo/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/demo/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/demo/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/demo/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/demo/app/Models/User_model.php(51): CodeIgniter\Database\BaseBuilder->update()
+#5 /var/www/htdocs/demo/app/Controllers/Users.php(32): App\Models\User_model->updateDetails()
+#6 /var/www/htdocs/demo/system/CodeIgniter.php(934): App\Controllers\Users->updateUserInfo()
+#7 /var/www/htdocs/demo/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/demo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/demo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-26 05:11:44 --> Unknown column 'phone_number' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/User_model.php(51): CodeIgniter\Database\BaseBuilder->update()
+ 3 APPPATH/Controllers/Users.php(32): App\Models\User_model->updateDetails()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->updateUserInfo()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 05:12:22 --> Undefined variable $userDetails
+in APPPATH/Controllers/Users.php on line 34.
+ 1 APPPATH/Controllers/Users.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->updateUserInfo()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 05:35:25 --> Undefined variable $errors
+in APPPATH/Views/profile.php on line 2.
+ 1 APPPATH/Views/profile.php(2): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Users.php(23): view()
+ 6 APPPATH/Controllers/Users.php(35): App\Controllers\Users->index()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->updateUserInfo()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 05:36:28 --> Undefined variable $errors
+in APPPATH/Views/profile.php on line 2.
+ 1 APPPATH/Views/profile.php(2): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Users.php(23): view()
+ 6 APPPATH/Controllers/Users.php(35): App\Controllers\Users->index()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->updateUserInfo()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 05:38:24 --> Array to string conversion
+in APPPATH/Views/profile.php on line 5.
+ 1 APPPATH/Views/profile.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Users.php(23): view()
+ 6 APPPATH/Controllers/Users.php(35): App\Controllers\Users->index()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->updateUserInfo()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 05:39:23 --> Array to string conversion
+in APPPATH/Views/profile.php on line 5.
+ 1 APPPATH/Views/profile.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Users.php(23): view()
+ 6 APPPATH/Controllers/Users.php(35): App\Controllers\Users->index()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->updateUserInfo()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 05:39:26 --> Array to string conversion
+in APPPATH/Views/profile.php on line 5.
+ 1 APPPATH/Views/profile.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Users.php(23): view()
+ 6 APPPATH/Controllers/Users.php(35): App\Controllers\Users->index()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->updateUserInfo()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 05:39:50 --> Array to string conversion
+in APPPATH/Views/profile.php on line 2.
+ 1 APPPATH/Views/profile.php(2): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Users.php(23): view()
+ 6 APPPATH/Controllers/Users.php(35): App\Controllers\Users->index()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->updateUserInfo()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 05:39:52 --> Array to string conversion
+in APPPATH/Views/profile.php on line 2.
+ 1 APPPATH/Views/profile.php(2): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Users.php(23): view()
+ 6 APPPATH/Controllers/Users.php(35): App\Controllers\Users->index()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->updateUserInfo()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 05:40:01 --> Undefined array key 0
+in APPPATH/Views/profile.php on line 2.
+ 1 APPPATH/Views/profile.php(2): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Users.php(23): view()
+ 6 APPPATH/Controllers/Users.php(35): App\Controllers\Users->index()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->updateUserInfo()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 05:40:12 --> Too few arguments to function App\Controllers\Users::index(), 0 passed in /var/www/htdocs/demo/system/CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH/Controllers/Users.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 05:41:26 --> Undefined variable $errors
+in APPPATH/Views/profile.php on line 2.
+ 1 APPPATH/Views/profile.php(2): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Users.php(23): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 05:43:38 --> Array to string conversion
+in APPPATH/Controllers/Users.php on line 35.
+ 1 APPPATH/Controllers/Users.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->updateUserInfo()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 06:03:37 --> "permit_emtpy" is not a valid rule.
+in SYSTEMPATH/Validation/Validation.php on line 320.
+ 1 SYSTEMPATH/Validation/Validation.php(320): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+ 2 SYSTEMPATH/Validation/Validation.php(170): CodeIgniter\Validation\Validation->processRules()
+ 3 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH/Controllers/Users.php(36): CodeIgniter\Controller->validate()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->updateUserInfo()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 06:04:30 --> Too few arguments to function App\Models\User_model::updateDetails(), 3 passed in /var/www/htdocs/demo/app/Controllers/Users.php on line 46 and exactly 4 expected
+in APPPATH/Models/User_model.php on line 48.
+ 1 APPPATH/Controllers/Users.php(46): App\Models\User_model->updateDetails()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->updateUserInfo()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 06:09:48 --> Undefined array key "PhoneNumber"
+in APPPATH/Models/User_model.php on line 61.
+ 1 APPPATH/Models/User_model.php(61): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Users.php(42): App\Models\User_model->updateDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->updateUserInfo()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 06:23:58 --> syntax error, unexpected token ";", expecting "function" or "const"
+in APPPATH/Controllers/Users.php on line 60.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 06:56:40 --> Class "App\Controllers\ImageModel" not found
+in APPPATH/Controllers/Users.php on line 62.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->uploadProfilePicture()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 07:42:59 --> Class "App\Controllers\ImageModel" not found
+in APPPATH/Controllers/Users.php on line 62.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->uploadProfilePicture()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 07:51:24 --> Class "App\Controllers\ImageModel" not found
+in APPPATH/Controllers/Users.php on line 62.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->uploadProfilePicture()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 07:51:40 --> Class "App\Controllers\ImageModel" not found
+in APPPATH/Controllers/Users.php on line 62.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->uploadProfilePicture()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 07:52:17 --> Class "App\Controllers\File" not found
+in APPPATH/Controllers/Users.php on line 64.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->uploadProfilePicture()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 07:52:37 --> Class "App\Controllers\File" not found
+in APPPATH/Controllers/Users.php on line 64.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->uploadProfilePicture()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 07:53:31 --> Undefined variable $id
+in APPPATH/Views/profile.php on line 18.
+ 1 APPPATH/Views/profile.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Users.php(66): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->uploadProfilePicture()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 07:54:45 --> Undefined variable $id
+in APPPATH/Views/profile.php on line 3.
+ 1 APPPATH/Views/profile.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Users.php(66): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->uploadProfilePicture()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 07:55:43 --> Undefined variable $userDetails
+in APPPATH/Controllers/Users.php on line 67.
+ 1 APPPATH/Controllers/Users.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->uploadProfilePicture()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 07:58:10 --> Undefined variable $data
+in APPPATH/Controllers/Users.php on line 25.
+ 1 APPPATH/Controllers/Users.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 08:03:14 --> Undefined variable $userDetails
+in APPPATH/Controllers/Users.php on line 67.
+ 1 APPPATH/Controllers/Users.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->uploadProfilePicture()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 08:12:48 --> Undefined variable $username
+in APPPATH/Models/User_model.php on line 69.
+ 1 APPPATH/Models/User_model.php(69): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Users.php(70): App\Models\User_model->updateProfilePicture()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->uploadProfilePicture()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 08:13:25 --> Too few arguments to function App\Models\User_model::updateProfilePicture(), 1 passed in /var/www/htdocs/demo/app/Controllers/Users.php on line 70 and exactly 3 expected
+in APPPATH/Models/User_model.php on line 64.
+ 1 APPPATH/Controllers/Users.php(70): App\Models\User_model->updateProfilePicture()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->uploadProfilePicture()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 21:57:46 --> Undefined constant "Config\routes"
+in APPPATH/Config/Routes.php on line 46.
+ 1 SYSTEMPATH/Router/RouteCollection.php(267): require()
+ 2 SYSTEMPATH/CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH/CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 22:04:39 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 882.
+ 1 SYSTEMPATH/Model.php(642): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Course.php(37): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->getCommentsAsJson()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 22:04:39 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 882.
+ 1 SYSTEMPATH/Model.php(642): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Course.php(37): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->getCommentsAsJson()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 22:04:39 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 882.
+ 1 SYSTEMPATH/Model.php(642): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Course.php(37): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->getCommentsAsJson()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 22:04:39 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 882.
+ 1 SYSTEMPATH/Model.php(642): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Course.php(37): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->getCommentsAsJson()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 22:35:31 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 882.
+ 1 SYSTEMPATH/Model.php(642): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Course.php(37): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->getCommentsAsJson()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 22:35:33 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 882.
+ 1 SYSTEMPATH/Model.php(642): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Course.php(37): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->getCommentsAsJson()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 22:36:31 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 882.
+ 1 SYSTEMPATH/Model.php(642): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Course.php(37): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->getCommentsAsJson()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 22:37:50 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 882.
+ 1 SYSTEMPATH/Model.php(642): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Course.php(37): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->getCommentsAsJson()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 22:37:50 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 882.
+ 1 SYSTEMPATH/Model.php(642): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Course.php(37): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->getCommentsAsJson()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 22:37:53 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 882.
+ 1 SYSTEMPATH/Model.php(642): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Course.php(37): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->getCommentsAsJson()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 22:37:54 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 882.
+ 1 SYSTEMPATH/Model.php(642): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Course.php(37): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->getCommentsAsJson()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 22:37:55 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 882.
+ 1 SYSTEMPATH/Model.php(642): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Course.php(37): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->getCommentsAsJson()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 22:37:56 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 882.
+ 1 SYSTEMPATH/Model.php(642): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Course.php(37): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->getCommentsAsJson()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 22:39:10 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 882.
+ 1 SYSTEMPATH/Model.php(642): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Course.php(37): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->getCommentsAsJson()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 22:39:53 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 882.
+ 1 SYSTEMPATH/Model.php(642): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Course.php(37): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->getCommentsAsJson()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 22:39:55 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 882.
+ 1 SYSTEMPATH/Model.php(642): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Course.php(37): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->getCommentsAsJson()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 22:41:22 --> Call to undefined function App\Controllers\vardump()
+in APPPATH/Controllers/Course.php on line 38.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->getCommentsAsJson()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 22:57:37 --> Undefined variable $error
+in APPPATH/Views/course.php on line 111.
+ 1 APPPATH/Views/course.php(111): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Course.php(16): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 23:22:20 --> Undefined variable $course
+in APPPATH/Views/commentForm.php on line 3.
+ 1 APPPATH/Views/commentForm.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/commentForm.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Course.php(48): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->showForm()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 23:23:12 --> view(): Argument #2 ($data) must be of type array, string given, called in /var/www/htdocs/demo/app/Controllers/Course.php on line 50
+in SYSTEMPATH/Common.php on line 1172.
+ 1 APPPATH/Controllers/Course.php(50): view()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->showForm()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 23:25:44 --> Call to undefined method CodeIgniter\HTTP\Response::view()
+in APPPATH/Controllers/Course.php on line 52.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->showForm()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 23:28:30 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+in APPPATH/Controllers/Course.php on line 55.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->showForm()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 23:55:20 --> Call to a member function getPosts() on null
+in APPPATH/Controllers/Course.php on line 30.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 23:58:21 --> Call to a member function getPosts() on null
+in APPPATH/Controllers/Course.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 23:59:28 --> Call to a member function getPosts() on null
+in APPPATH/Controllers/Course.php on line 30.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 23:59:33 --> syntax error, unexpected token "echo"
+in APPPATH/Controllers/Course.php on line 32.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 23:59:40 --> foreach() argument must be of type array|object, null given
+in APPPATH/Views/course.php on line 28.
+ 1 APPPATH/Views/course.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Course.php(33): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
